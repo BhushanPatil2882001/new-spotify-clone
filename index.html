@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- javaScript -->
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <!-----------------------------HEADER START----------------------------->
+    <header>
+        <div class="container">
+            <nav class="flex align-center">
+                <div class="col-4 col-s-1">
+                    <div class="logo ">
+                        <i class="ri-spotify-fill"></i>
+                    </div>
+                </div>
+                <div class="col-5 col-s-3 nav-mid-column">
+                    <div class="nav-mid  flex align-center justify-center gap-10">
+                        <div class="nav-mid-home-icon">
+                            <i class="ri-home-9-fill"></i>
+                        </div>
+                        <div class="search-bar flex align-center">
+                            <div class="nav-mid-search-icon">
+                                <i class="ri-search-line"></i>
+                            </div>
+                            <div class="nav-mid-search-text">
+                                <input type="text" placeholder="What do you want to play?">
+                            </div>
+                            <div class="nav-mid-browse-icon">
+                                <svg data-encore-id="icon" role="img" fill="white" aria-hidden="true" class="Svg-sc-ytk21e-0 bneLcE e-9541-icon" viewBox="0 0 24 24"><path d="M15 15.5c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2z"></path><path d="M1.513 9.37A1 1 0 0 1 2.291 9h19.418a1 1 0 0 1 .979 1.208l-2.339 11a1 1 0 0 1-.978.792H4.63a1 1 0 0 1-.978-.792l-2.339-11a1 1 0 0 1 .201-.837zM3.525 11l1.913 9h13.123l1.913-9H3.525zM4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4h-2V3H6v3H4V2z"></path></svg>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-s-8 nav-right-column">
+                    <div class="nav-left  flex align-center justify-end gap-20">
+                        <button class="nav-btn-1 btn">Explore Premium</button>
+                        <button class="nav-btn-2 btn">Install App</button>
+                        <span class="nav-bell">
+                            <i class="ri-notification-2-line"></i>
+                        </span>
+                        <div class="acc-img flex align-center justify-center">
+                            <span class="flex align-center justify-center">
+                                <p>B</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-----------------------------HEADER END----------------------------->
+    <!-----------------------------MAIN START----------------------------->
+    <main>
+        <!-----------------------------MAIN TOP START----------------------------->
+        <div class="container main-top-container flex wrap">
+            <div class="col-3 col-s2-12 col-s-4">
+                <div class="main-top-left">
+                    <div class="library flex justify-between align-center wrap gap-10">
+                        <div class="library-left">
+                            <span class="flex align-center gap-10">
+                                <i class="ri-book-shelf-fill"></i>
+                                <p>Your Library</p>
+                            </span>
+                        </div>
+                        <div class="library-right flex align-center gap-10">
+                            <button class="flex align-center btn">
+                                <span><i class="ri-add-line"></i></span>
+                                Create
+                            </button>
+                            <span class="arrow-right">
+                                <i class="ri-arrow-right-line"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="btn">Artists</button>
+                    <div class="artists-search flex justify-between">
+                        <span><i class="ri-search-line"></i></span>
+                        <span class="filter flex gap-10">Recents<i class="ri-list-check"></i></span>
+                    </div>
+                    <div class="artists-list flex flex-column">
+                        <div class="artist flex align-center gap-10">
+                            <div class="artist-photo">
+                                <img src="./assets/images/artists/shan.webp" alt="">
+                            </div>
+                            <div class="artist-name">
+                                <p>Shaan</p>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="artist flex align-center gap-10">
+                            <div class="artist-photo">
+                                <img src="./assets/images/artists/papon.webp" alt="">
+                            </div>
+                            <div class="artist-name">
+                                <p>Papon</p>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="artist flex align-center gap-10">
+                            <div class="artist-photo">
+                                <img src="./assets/images/artists/Arijit-singh.webp" alt="">
+                            </div>
+                            <div class="artist-name">
+                                <p>Arijit Singh</p>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="artist flex align-center gap-10">
+                            <div class="artist-photo">
+                                <img src="./assets/images/artists/shreya-ghoshal.webp" alt="">
+                            </div>
+                            <div class="artist-name">
+                                <p>Shreya Ghoshal</p>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                        <div class="artist flex align-center gap-10">
+                            <div class="artist-photo">
+                                <img src="./assets/images/artists/sonu-nigam.webp" alt="">
+                            </div>
+                            <div class="artist-name">
+                                <p>Sonu Nigam</p>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-s2-12 col-s-8 main-t-r">
+                <div class="main-top-right">
+                    <div class="container right-container">
+                        <div class="right-top">
+                            <button class="btn active filter-btn">All</button>
+                            <button class="btn filter-btn">Music</button>
+                            <button class="btn filter-btn">Podcasts</button>
+                        </div>
+                        <div class="made-for-section flex">
+                            <div class="card flex flex-column gap-10">
+                                <div>
+                                    <div class="flex align-center justify-center">
+                                        <img src="./assets/images/covers/1.jpeg" alt="">
+                                    </div>
+                                </div>
+                                <p>Ram Sampath, Sona Mahapatra, Kanika...</p>
+                            </div>
+                            <div class="card flex flex-column gap-10">
+                                <div>
+                                    <div class="flex align-center justify-center">
+                                        <img src="./assets/images/covers/2.jpeg" alt="">
+                                    </div>
+                                </div>
+                                <p>Amit Trivedi, Sunidhi Chauhan, Neeraj...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-s2-12 col-s-12 main-queue ">
+                <div class="queue">
+                    <div class=" queue-top flex justify-between">
+                        <p>Queue</p>
+                        <div class="queue-close">
+                            <i class="ri-close-line"></i>
+                        </div>
+                    </div>
+                    <p>Now Playing</p>
+                    <div class="now-playing">
+                        <ul>
+                            <li class="song" id="1">
+                                <audio>
+                                    <source src="./assets/songs/Isq Risk- RFAK.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/1.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Isq Risk</h4>
+                                    <p>Rahat Fateh Ali Khan</p>
+                                </div>
+                            </li>
+                            <li class="song" id="2">
+                                <audio>
+                                    <source src="./assets/songs/Tu Chahiye-Atif Aslam.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/2.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Tu Chahiye</h4>
+                                    <p>Atif Aslam</p>
+                                </div>
+                            </li>
+                            <li class="song" id="3">
+                                <audio>
+                                    <source src="./assets/songs/Bol Na Halke Halke-RFAK.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/3.jpeg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Bol Na Halke Halke</h4>
+                                    <p>Rahat Fateh Ali Khan</p>
+                                </div>
+                            </li>
+                            <li class="song" id="4">
+                                <audio>
+                                    <source src="./assets/songs/Dil Kyu Yeh Mera-KK.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/4.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Dil Kyu Yeh Mera</h4>
+                                    <p>KK</p>
+                                </div>
+                            </li>
+                            <li class="song" id="5">
+                                <audio>
+                                    <source src="./assets/songs/Jeena Jeena - Atif Aslam.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/5.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Jeena Jeena</h4>
+                                    <p>Atif Aslam</p>
+                                </div>
+                            </li>
+                            <li class="song" id="6">
+                                <audio>
+                                    <source src="./assets/songs/Kehti Hai Duniya Mujhe Ek Tarfa Aashiq Tera-Ami Mishra.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/6.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">Kehti hai Duniya Mujhe</h4>
+                                    <p>Ami Mishra</p>
+                                </div>
+                            </li>
+                            <li class="song" id="7">
+                                <audio>
+                                    <source src="./assets/songs/Mitwa-shafaqat Amanat Ali.mpeg">
+                                </audio>
+                                <div class="song-cover">
+                                    <img src="./assets/images/song-covers/7.jpg" alt="">
+                                </div>
+                                <div class="song-details">
+                                    <h4 class="playing">MItwa</h4>
+                                    <p>Shafaqat Amanat Ali</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="media-player flex">
+            <div class="container flex align-center">
+                <div class="col-4">
+                    <div class="media-left">
+                        <div class="media-player-song">
+                            <div class="media-player-song-image">
+                                <img src="./assets/images/song-covers/nhi-milta.jpeg" alt="">
+                            </div>
+                            <div class="song-details">
+                                <h4>Nahin Milta</h4>
+                                <p>Bayaan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="media-mid">
+                        <div class="seekbar-top">
+                            <i class="ri-skip-left-line"></i>
+                            <i class="ri-play-circle-fill" id="play"></i>
+                            <i class="ri-skip-right-line"></i>
+                        </div>
+                        <div class="seekbar-bottom">
+                            <input type="range" value="0" id="seekbar">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 media-right-column flex align-center justify-end">
+                    <div class="media-right">
+                        <i class="ri-mic-line"></i>
+                        <i class="ri-phone-line"></i>
+                        <i class="ri-volume-down-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------MAIN TOP END----------------------------->
+    </main>
+    <!-----------------------------MAIN END----------------------------->
+    <!-----------------------------FOOTER START----------------------------->
+    <footer></footer>
+    <!-----------------------------FOOTER END----------------------------->
+</body>
+</html>
